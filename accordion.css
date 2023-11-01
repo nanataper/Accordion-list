@@ -1,0 +1,80 @@
+   /* Accordion styles - Move this styles to Stylesheets after finalizing it!!! */
+        @media only screen and (max-width: 1170px) {
+          #accordion-div {
+            width: 95%;
+            margin: auto;
+            margin-top: 50px;
+          }
+  
+        }
+  
+        @media only screen and (min-width: 1170px) {
+          #accordion-div {
+            width: 1170px;
+            margin: auto;
+            margin-top: 50px;
+          }
+  
+        }
+        .accordion {
+            background-color: #e5edef73;
+            color: #00305c;
+            cursor: pointer;
+            padding: 10px 45px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 1.7rem;
+            transition: 0.4s;
+            border-bottom: 1px solid #B2C0CD;
+            font-weight: 700;
+            border-radius: 5px;
+        }
+  
+        .active,
+        .accordion:hover {
+            background-color: #E8F0F5;
+        }
+  
+        .panel {
+            padding: 0 18px;
+            display: none;
+            background-color: white;
+            overflow: hidden;
+  
+        }
+  
+        .panel p {
+            color: #00305c;
+            font-size: 1.7rem;
+        }
+  
+        .panel h4 {
+            color: #00305c;
+            font-weight: 700;
+        }
+        .accordion span{
+        vertical-align: sub;
+      }
+  
+  
+        .accordion-sign {
+            float: right;
+            font-weight: 700;
+            font-size: 23px;
+            color: #00A0E1;
+        }
+        #zoomable-image{
+          object-fit: contain;
+          transition: all .2s ease;
+          margin: 0 auto;
+          width: 300px; 
+          max-height: 100%; 
+          overflow: hidden;
+          
+        }
+        #zoomable-image:hover{
+             width: 800px;
+             cursor: pointer;
+        }
